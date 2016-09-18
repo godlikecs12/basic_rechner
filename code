@@ -1,0 +1,16 @@
+//Projekt basic_rechner kopiert von https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Einf%C3%BChrung_in_C%2B%2B/_Rechnen_(lassen)
+#include <iostream>
+
+int main()
+{
+	int Summand1, Summand2;                    // Anlegen von zwei Variablen
+
+	std::cin >> Summand1 >> Summand2;          // Zwei Zahlen eingeben
+
+	std::cout << Summand1 << " + " << Summand2 // beide durch " + " getrennt wieder ausgeben
+	<< " = "                         // " = " ausgeben
+	<< Summand1 + Summand2           // Ergebnis berechnen und ausgeben
+	<< std::endl;                    // Zeilenumbruch
+	system("PAUSE");
+
+}
